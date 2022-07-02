@@ -26,7 +26,9 @@ SECRET_KEY = 'kt+0dp=^h9l8bg+a2=in#+8n$&e6958b$znubki$2hf)hr0qq='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = ['young-bayou-74072.herokuapp.com', 'carzoneapp.in', 'www.carzone.in']
+
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -69,6 +71,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+
+  
 ]
 
 ROOT_URLCONF = 'carzone.urls'
@@ -106,7 +110,10 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # }
 
 
+
 DATABASE = {'default': dj_database_url.config(default = 'postgres://postgres:Nandupr_92@localhost/carzone_db')}
+
+
 
 
 # Password validation
@@ -172,7 +179,14 @@ MESSAGE_TAGS = {
 SITE_ID = 1
 
 
+
 # Whitenoise settings
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+
+# whitenoise settings
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
