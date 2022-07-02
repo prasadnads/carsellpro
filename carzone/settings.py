@@ -27,7 +27,7 @@ SECRET_KEY = 'kt+0dp=^h9l8bg+a2=in#+8n$&e6958b$znubki$2hf)hr0qq='
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['secure-sands-16359.herokuapp.com', 'carzone.in', 'www.carzoneapp.in']
+ALLOWED_HOSTS = ['secure-sands-16359.herokuapp.com', 'carzoneapp.co', 'www.carzoneapp.co']
 
 
 LOGIN_REDIRECT_URL = 'dashboard'
