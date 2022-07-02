@@ -289,6 +289,7 @@ wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 Werkzeug @ file:///tmp/build/80754af9/werkzeug_1635505089296/work
 whichcraft @ file:///tmp/build/80754af9/whichcraft_1617751293875/work
+whitenoise==6.2.0
 widgetsnbextension @ file:///C:/ci/widgetsnbextension_1607531582688/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
 win-unicode-console==0.5
