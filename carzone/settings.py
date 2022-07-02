@@ -27,7 +27,7 @@ SECRET_KEY = 'kt+0dp=^h9l8bg+a2=in#+8n$&e6958b$znubki$2hf)hr0qq='
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['young-bayou-74072.herokuapp.com', 'carzoneapp.in', 'www.carzone.in']
+ALLOWED_HOSTS = ['arcane-escarpment-44107.herokuapp.com', 'carzoneapp.in', 'www.carzone.in']
 
 
 LOGIN_REDIRECT_URL = 'dashboard'
