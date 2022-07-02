@@ -26,7 +26,7 @@ SECRET_KEY = 'kt+0dp=^h9l8bg+a2=in#+8n$&e6958b$znubki$2hf)hr0qq='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['young-bayou-74072.herokuapp.com', 'carzoneapp.in', 'www.carzone.in']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
